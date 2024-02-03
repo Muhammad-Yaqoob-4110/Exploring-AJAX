@@ -7,7 +7,7 @@ const WeatherApp = () => {
   const [error, setError] = useState(null);
 
   const apiKey = "0ed08e82fa734344baf70801240302";
-  const baseUrl = "http://api.weatherapi.com/v1";
+  const baseUrl = "https://api.weatherapi.com/v1";
   const endpoint = "/current.json";
 
   const getWeather = async () => {
